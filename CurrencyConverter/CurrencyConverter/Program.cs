@@ -10,7 +10,9 @@ namespace CurrencyConverter
     {
         static void Main(string[] args)
         {
-            ReadRates r = new ReadRates("C:/Users/rajeev.arora/Source/Repos/CurrencyConversionProject/CurrencyConverter/CurrencyRate.xml"); 
+            ReadXmlData r = new ReadXmlData("C:/Users/rajeev.arora/Source/Repos/CurrencyConversionProject/CurrencyConverter/CurrencyRates.xml");
+
+            Dictionary<Tuple<int, string>, Tuple<string, string>> currAndRates = new Dictionary<Tuple<int, string>, Tuple<string, string>>();
 
             r.GetRatesData();
 

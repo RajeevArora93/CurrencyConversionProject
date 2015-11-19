@@ -10,6 +10,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A5AEA5F6-35FF-412B-9991-7B0B8AFD8937}"
 	ProjectSection(SolutionItems) = preProject
 		CurrencyRates.xml = CurrencyRates.xml
+		XMLFile1.xml = XMLFile1.xml
 	EndProjectSection
 EndProject
 Global

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<gesmes:Envelope xmlns:gesmes="http://www.gesmes.org/xml/2002-08-01" xmlns="http://www.ecb.int/vocabulary/2002-08-01/eurofxref">
+  <gesmes:subject>Reference rates</gesmes:subject>
+  <gesmes:Sender>
+    <gesmes:name>European Central Bank</gesmes:name>
+  </gesmes:Sender>
+  <Cube>
+    <Cube time="2015-11-17">
+      <Cube currency="USD" rate="1.067"/>
+    </Cube>
+  </Cube>
+  <Cube>
+    <Cube time="2015-11-16">
+      <Cube currency="USD" rate="1.05"/>
+    </Cube>
+  </Cube>
+  <Cube>
+    <Cube time="2015-11-15">
+      <Cube currency="USD" rate="1.066"/>
+    </Cube>
+  </Cube>
+  <Cube>
+    <Cube time="2015-11-14">
+      <Cube currency="USD" rate="1.07"/>
+    </Cube>
+  </Cube>
+</gesmes:Envelope>

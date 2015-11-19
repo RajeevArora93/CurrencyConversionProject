@@ -56,9 +56,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Averager.cs" />
+    <Compile Include="Currency.cs" />
+    <Compile Include="DataController.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ReadRates.cs" />
+    <Compile Include="ListReader.cs" />
+    <Compile Include="ReadXmlData.cs" />
+    <Compile Include="ListWriter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
